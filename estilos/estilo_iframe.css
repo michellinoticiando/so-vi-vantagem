@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+.titulo {
+	font-size: 16px;
+	font-weight: bold;
+	color: #6d588f;
+	font-family: Verdana, Georgia, Arial;
+	margin-left: 30px;
+	
+}
+.texto {
+	font-size: 14px;
+	font-weight: none;
+	color: 6d588f;
+	font-family: Verdana, Georgia, Arial;
+	margin-left: 30px;
+	margin-right: 30px;
+}a:link {
+ 	text-decoration:none;
+	color: #6c6361;
+}
+a:visited {
+	text-decoration: none;
+	color: #6c6361;
+}
+a:hover {
+	text-decoration: bold;
+	color: #6c6361;
+}
+a:active {
+	text-decoration: none;
+	color: #6d588f;
+}
+

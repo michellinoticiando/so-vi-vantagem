@@ -1,0 +1,228 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Programa de est&aacute;gio | Nube</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="media/css/stylesheet.css" type="text/css">
+</head>
+
+<body class="white" id="topo">
+    <nav class="navbar white">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle Collapsed-button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="Top-bar" href="#">
+                    <img class="Brand" src="media/img/logo_nube.png" alt="Nube">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="menu-item"><a href="#empresa">O Nube</a></li>
+                    <li class="menu-item"><a href="#programa">O Programa</a></li>
+                    <li class="menu-item"><a href="#incricao">Inscri&ccedil;&otilde;es</a></li>
+                    <li class="menu-item"><a href="#resultados">Resultados</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="row white">
+            <a href="#video" target="_parent"><img src="media/img/topo_site.jpg" alt="Programa de est&aacute;gio | Nube" class="col-xs-12 image" border="0"></a>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="image-form-container">
+                    <form class="form-sign" name="form1" action="processar_inscricao_programa" method="POST">
+                        <div>
+                            <h3>Inscreva-se com seu cadastro do Nube</h3>
+                            <input name="id_programa" value="115" type="hidden">
+                            <span>E-mail</span>
+                            <input type="email"  placeholder="e-mail@email.com" name="email" id="email">
+                            <span>Senha</span>
+                            <input placeholder="********" name="senha" id="senha" type="password">
+                            <input name="possui_cadastro" value="Entrar" type="submit">
+                            <input value="Esqueci minha senha" onclick="window.open('/login/recuperar_senha', '_blank')" type="button">
+                        </div>
+                        <div>
+                            <h3>Ou cadastre-se agora</h3>
+                            <input name="nao_possui_cadastro" value="N&atilde;o Possuo Cadastro no Nube" onclick="javascript:window.open('/estudantes/cadastro', '_blank')" type="button">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="video">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div>
+                <iframe class="video" src="https://player.vimeo.com/video/266184208?autoplay=1&amp;autopause=1" &color="e6851e&amp;title=0&amp;byline=0&amp;portrait=0&quot;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" ></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="empresa">
+            <div class="col-xs-12 col-sm-10 col-md-8">
+                <h3>O Nube</h3>
+                <span>
+                    O Nube &eacute; uma das maiores organiza&ccedil;&otilde;es privadas de coloca&ccedil;&atilde;o de jovens no mercado de trabalho. Desde 1998, j&aacute; inseriu mais de 750 mil estagi&aacute;rios e aprendizes no mercado. Come&ccedil;ou atuando como agente de integra&ccedil;&atilde;o entre estudantes, empresas e institui&ccedil;&otilde;es de ensino. A partir da&iacute;, passou a oferecer vagas para aprendizagem, por meio de institui&ccedil;&otilde;es parceiras. Nossa principal meta, &eacute; identificar, selecionar e qualificar jovens para integr&aacute;-los aos programas de est&aacute;gios e aprendizagem oferecidos pelas empresas. &nbsp;<br>
+                    <br>
+                    O atendimento &eacute; realizado em modernos conceitos de trabalho em equipe, treinamento cont&iacute;nuo e planos motivacionais centrados no elemento humano para prestar um servi&ccedil;o de alta qualidade. &nbsp;Possui conv&ecirc;nio com cerca de 14 mil institui&ccedil;&otilde;es de ensino de todo o Brasil e tem 7,5 mil empresas clientes.  O banco de dados conta com 4,5 milh&otilde;es de curr&iacute;culos cadastrados de jovens de todo o pa&iacute;s.<br>
+                    <br>
+                    Um sistema de tecnologia da informa&ccedil;&atilde;o &uacute;nico no Brasil foi desenvolvido para coloca&ccedil;&atilde;o de jovens. Os clientes fazem a gest&atilde;o de seus candidatos por um gestor on-line de forma f&aacute;cil, pr&aacute;tica e funcional. Com isso, se tornou uma das maiores empresas da &aacute;rea e se destaca pelo bom relacionamento com a imprensa e a sociedade.
+                </span>
+            </div>
+        </div>
+        <div class="row center-align-text grey" id="programa">
+            <div class="col-xs-12 col-sm-10 col-md-8">
+                <div class="rounded white">
+                   <div>
+                    <h3>Venha iniciar sua carreira de sucesso com o Nube!</h3>
+                    <p>Somos uma das maiores organiza&ccedil;&otilde;es privadas de coloca&ccedil;&atilde;o de jovens no mercado de trabalho.</p>
+                    <p>Fa&ccedil;a parte da nossa equipe!	</p>
+                    <p><img src="media/img/diferencas.png" width="978" height="205" alt=""/><br>
+                    </p>
+                  </div>
+                <div>
+                    <br><h3>O que oferecemos?</h3>        
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <span><strong>Bolsa-aux&iacute;lio:</strong>
+                            <br>Compat&iacute;vel
+                            <br>com cada &aacute;rea
+                            <br>de atua&ccedil;&atilde;o.
+                            <br>
+                            <br>
+                        </span>
+                    </div>
+                </div>  
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <span>
+                        <strong>Benef&iacute;cios:</strong>
+                        <br>- Aux&iacute;lio-refei&ccedil;&atilde;o;
+                        <br>- Aux&iacute;lio-transporte;
+                        <br>- Plano de Sa&uacute;de
+                        <br>(Com participa&ccedil;&atilde;o);
+                        <br>- Descontos em Parceiros;
+                        <br>(Faculdades, academias, lojas, etc).
+                        <br>
+                        <br>
+                    </span>
+                </div>   
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <span>
+                        <strong>Diferenciais</strong>
+                        <br>- Refeit&oacute;rio pr&oacute;prio;
+                        <br>- Espa&ccedil;o de lazer e jogos;
+                        <br>- Pr&ecirc;mios;
+                        <br>- Treinamentos;
+                        <br>- Est&aacute;gio de at&eacute; 2 anos;
+                        <br>- Possibilidade de efetiva&ccedil;&atilde;o;
+                        <br>- Localiza&ccedil;&atilde;o de f&aacute;cil acesso.
+                        <br>
+                        <br>
+                    </span>
+                </div>    
+                <div>
+                    <span>
+                        Se voc&ecirc; quer estagiar em uma empresa para ter sua criatividade e talento valorizados, o Nube &eacute; a sua melhor escolha!<br>
+                        Nossos estagi&aacute;rios contam com grandes chances de crescimento e efetiva&ccedil;&atilde;o. <br> <br>
+                    </span>
+
+                    <div>    
+                        <span>
+                            <h3>Requisitos</h3>
+                            Voc&ecirc; possui curiosidade em aprender e explorar novos caminhos em parceria com outras pessoas, com compromisso e responsabilidade?
+                            <br>Est&aacute; disposto a aprender e desenvolver comunica&ccedil;&atilde;o e relacionamento interpessoal?
+                            <br>Consegue inspira&ccedil;&atilde;o em um ambiente din&acirc;mico e sabe trabalhar em equipe?
+                            <br>Quer aprender, mas tamb&eacute;m poder ensinar?
+                            <br>
+                            <br>Ent&atilde;o, o Nube &eacute; o seu lugar!
+                            <br>
+                            <br>N&iacute;vel de escolaridade: estudantes de ensino m&eacute;dio, t&eacute;cnico, tecn&oacute;logo ou superior.
+                            <br>
+                            <br>&Aacute;reas: Administra&ccedil;&atilde;o, Publicidade e Propaganda, Marketing, R&aacute;dio e TV, Rela&ccedil;&otilde;es P&uacute;blicas, Tecn&oacute;logos e &aacute;reas correlatas. 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="inscricao">
+        <div class="col-xs-12 col-sm-10 col-md-8">
+            <h3>Inscri&ccedil;&otilde;es</h3>
+            <span>
+                Para participar do programa de est&aacute;gio, utilize o endere&ccedil;o abaixo e informe o e-mail e senha usados para acessar a &aacute;rea de estudantes do site do Nube. Isso garantir&aacute; sua inscri&ccedil;&atilde;o no &quot;Programa de Est&aacute;gio&quot;. Em seguida, uma mensagem ser&aacute; encaminhada para o e-mail utilizado.
+                <br>
+                Caso ainda n&atilde;o tenha cadastro no Nube, poder&aacute; fazer o seu agora, de forma r&aacute;pida e pr&aacute;tica. Para isso, basta colocar seu e-mail e seguir as instru&ccedil;&otilde;es.
+            </span><br><br>
+            <h3>
+                Conclus&atilde;o da Inscri&ccedil;&atilde;o
+            </h3>
+            <span>
+                Uma vez inscrito, voc&ecirc; ter&aacute; acesso a uma &aacute;rea na qual poder&aacute; acompanhar o seu &quot;status&quot; no programa de est&aacute;gio. Para concluir sua inscri&ccedil;&atilde;o voc&ecirc; dever&aacute; fazer os testes on-line requeridos pelo programa. Ap&oacute;s fazer os testes necess&aacute;rios voc&ecirc; receber&aacute; um e-mail de confirma&ccedil;&atilde;o, contendo tamb&eacute;m um link para o site do programa de est&aacute;gio para acompanhar os resultados do processo.             
+            </span>
+        </div>
+    </div>
+    <div class="row grey">
+        <div class="col-xs-12 col-sm-8 col-md-10">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="rounded white center-align-text">
+                    <h3>Testes &ldquo;on-line&rdquo;</h3>
+                    <span>
+                        Os testes &ldquo;on-line&rdquo; s&atilde;o as provas aplicadas por meio da internet e fazem parte do processo seletivo no programa de est&aacute;gio.
+                        <br>A confirma&ccedil;&atilde;o de sua inscri&ccedil;&atilde;o depende de voc&ecirc; ter ou n&atilde;o feito esses testes. Os mesmos poder&atilde;o ser refeitos ap&oacute;s um per&iacute;odo de 6 meses.
+                        <br>&Eacute; poss&iacute;vel usar os testes por mais de um programa de est&aacute;gio. Nesses casos, voc&ecirc; poder&aacute; acompanhar quais voc&ecirc; ainda n&atilde;o fez, pelo site do Nube.
+                        <br>
+                        <br>Os testes podem ser realizados em qualquer computador que tenha pelo menos um dos navegadores de internet abaixo:
+                        <br>- Internet Explorer vers&atilde;o 6.0 (ou superior);
+                        <br>- Firefox vers&atilde;o 1.5 (ou superior);<br>
+                        <br><span class="warning">IMPORTANTE: Se voc&ecirc; for usu&aacute;rio de algum servi&ccedil;o anti-spam, lembre-se de desbloquear os e-mails enviados por <a href="mailto:estudantes@nube.com.br" title="estudantes@nube.com.br">estudantes@nube.com.br</a>.</span>
+
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6" id="resultados">
+                <form class="form-sign" action="processar_login_programa" method="post">
+                    <div>
+                        <h3 id="incricao">Acompanhe sua inscri&ccedil;&atilde;o</h3>
+                        <span>Aqui voc&ecirc; poder&aacute; acompanhar o &quot;status&quot; de sua inscri&ccedil;&atilde;o no programa de est&aacute;gio.</span>
+                    </div>
+                    <div>
+                        <input name="id_programa" value="115" type="hidden">
+                        <span>E-mail</span>
+                        <input type="email" placeholder="e-mail@email.com" name="email" class="input_form" id="email">
+                        <span>Senha</span>
+                        <input placeholder="********" name="senha" class="input_form" id="senha" type="password">
+                        <input name="acompanhar_status" value="Entrar" type="submit">
+                        <input value="Esqueci minha senha" onclick="window.open('/login/recuperar_senha', '_blank')" type="button">
+                    </div>
+                    <div>
+                        <h3>Ou cadastre-se agora</h3>
+                        <input name="nao_possui_cadastro" value="N&atilde;o Possuo Cadastro no Nube" onclick="javascript:window.open('/estudantes/cadastro', '_blank')" type="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="button-darkgrey center-align-div">
+                <a href="#topo">Voltar ao topo</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
